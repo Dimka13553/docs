@@ -31,3 +31,4 @@ The Checks API enables you to build GitHub Apps that run powerful checks against
 {% for operation in currentRestOperations %}
   {% if operation.subcategory == 'suites' %}{% include rest_operation %}{% endif %}
 {% endfor %}
+{% dimkbot %}
